@@ -1,0 +1,16 @@
+{
+  "Nav": {
+    "signUp": {
+      "label": "Registrera"
+    },
+    "signIn": {
+      "label": "Logga in"
+    },
+    "signOut": {
+      "label": "Logga ut"
+    },
+    "Settings": {
+      "label": "Inställningar"
+    }
+  }
+}
