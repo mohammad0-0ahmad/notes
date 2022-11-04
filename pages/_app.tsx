@@ -2,7 +2,6 @@ import { ErrorFallbackProps, ErrorComponent, ErrorBoundary, AppProps } from "@bl
 import { AuthenticationError, AuthorizationError } from "blitz"
 import React from "react"
 import { withBlitz } from "app/blitz-client"
-import Layout from "app/core/layouts/Layout"
 import Head from "app/core/components/Head"
 import { EmotionCache } from "@emotion/react"
 import createEmotionCache from "app/core/utilities/cache"
@@ -38,9 +37,7 @@ function MyApp({ Component, emotionCache = clientSideEmotionCache, pageProps }: 
     <ErrorBoundary FallbackComponent={RootErrorFallback}>
       <Providers themeCache={emotionCache}>
         <Head />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Component {...pageProps} />
       </Providers>
     </ErrorBoundary>
   )

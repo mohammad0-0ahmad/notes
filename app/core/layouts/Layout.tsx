@@ -11,6 +11,8 @@ const Layout: BlitzLayout<{ children?: React.ReactNode }> = ({ children }) => {
           "#__next": {
             "& > main": {
               marginTop: 56,
+              minHeight: "calc(100vh - 56px)",
+              display: "flex",
             },
           },
         }}
