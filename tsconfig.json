@@ -5,7 +5,8 @@
     "baseUrl": ".",
     "paths": {
       "theme": ["app/theme"],
-      "pkgJson": ["./package.json"]
+      "pkgJson": ["./package.json"],
+      "db": ["db"]
     },
     "allowJs": true,
     "skipLibCheck": true,

@@ -12,5 +12,11 @@
     "Settings": {
       "label": "Inställningar"
     }
+  },
+  "EntryForm": {
+    "title": "Login",
+    "email": { "label": "E-post:" },
+    "password": { "label": "Lösenord:" },
+    "submit": { "label": "Logga in" }
   }
 }
